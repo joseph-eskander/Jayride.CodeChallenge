@@ -5,6 +5,18 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Api", "Jayride.CodeChallenge.Api\Jayride.CodeChallenge.Api.csproj", "{62A2CA30-19BF-421C-B43E-DD5C8B8AC5B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Interfaces", "Jayride.CodeChallenge.Interfaces\Jayride.CodeChallenge.Interfaces.csproj", "{B8BFFA62-5194-4015-805D-E44C6A0191F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Services", "Jayride.CodeChallenge.Services\Jayride.CodeChallenge.Services.csproj", "{17AEC7AE-A211-41E4-BD26-479C103D080E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Dtos", "Jayride.CodeChallenge.Dtos\Jayride.CodeChallenge.Dtos.csproj", "{B0CE5910-3021-4961-9E7D-66FD56CC560F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Repositories", "Jayride.CodeChallenge.Repositories\Jayride.CodeChallenge.Repositories.csproj", "{8ED5CE98-1539-4770-B0B6-9C6E19ED8BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Data", "Jayride.CodeChallenge.Data\Jayride.CodeChallenge.Data.csproj", "{16B38117-6B13-41C1-A10F-1C8CF6883976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.DependenciesRegistration", "Jayride.CodeChallenge.DependenciesRegistration\Jayride.CodeChallenge.DependenciesRegistration.csproj", "{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{62A2CA30-19BF-421C-B43E-DD5C8B8AC5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62A2CA30-19BF-421C-B43E-DD5C8B8AC5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62A2CA30-19BF-421C-B43E-DD5C8B8AC5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BFFA62-5194-4015-805D-E44C6A0191F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BFFA62-5194-4015-805D-E44C6A0191F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BFFA62-5194-4015-805D-E44C6A0191F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BFFA62-5194-4015-805D-E44C6A0191F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17AEC7AE-A211-41E4-BD26-479C103D080E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17AEC7AE-A211-41E4-BD26-479C103D080E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17AEC7AE-A211-41E4-BD26-479C103D080E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17AEC7AE-A211-41E4-BD26-479C103D080E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CE5910-3021-4961-9E7D-66FD56CC560F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CE5910-3021-4961-9E7D-66FD56CC560F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CE5910-3021-4961-9E7D-66FD56CC560F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CE5910-3021-4961-9E7D-66FD56CC560F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ED5CE98-1539-4770-B0B6-9C6E19ED8BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ED5CE98-1539-4770-B0B6-9C6E19ED8BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ED5CE98-1539-4770-B0B6-9C6E19ED8BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ED5CE98-1539-4770-B0B6-9C6E19ED8BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B38117-6B13-41C1-A10F-1C8CF6883976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B38117-6B13-41C1-A10F-1C8CF6883976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B38117-6B13-41C1-A10F-1C8CF6883976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B38117-6B13-41C1-A10F-1C8CF6883976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
