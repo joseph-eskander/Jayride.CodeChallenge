@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CandidateRepository.cs" />
+    <Compile Include="LocationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +57,10 @@
     <ProjectReference Include="..\Jayride.CodeChallenge.Interfaces\Jayride.CodeChallenge.Interfaces.csproj">
       <Project>{B8BFFA62-5194-4015-805D-E44C6A0191F4}</Project>
       <Name>Jayride.CodeChallenge.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jayride.CodeChallenge.ServiceAgents\Jayride.CodeChallenge.ServiceAgents.csproj">
+      <Project>{7E623756-AC55-4ED8-A508-473CF302DDF2}</Project>
+      <Name>Jayride.CodeChallenge.ServiceAgents</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

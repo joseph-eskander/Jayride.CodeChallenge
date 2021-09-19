@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.Data"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.DependenciesRegistration", "Jayride.CodeChallenge.DependenciesRegistration\Jayride.CodeChallenge.DependenciesRegistration.csproj", "{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jayride.CodeChallenge.ServiceAgents", "Jayride.CodeChallenge.ServiceAgents\Jayride.CodeChallenge.ServiceAgents.csproj", "{7E623756-AC55-4ED8-A508-473CF302DDF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD6513D1-9DEE-42D2-8C15-FBF38FCEB569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E623756-AC55-4ED8-A508-473CF302DDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E623756-AC55-4ED8-A508-473CF302DDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E623756-AC55-4ED8-A508-473CF302DDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E623756-AC55-4ED8-A508-473CF302DDF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

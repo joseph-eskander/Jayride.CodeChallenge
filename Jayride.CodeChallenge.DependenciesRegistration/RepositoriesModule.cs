@@ -9,6 +9,7 @@ namespace Jayride.CodeChallenge.DependenciesRegistration
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CandidateRepository>().As<ICandidateRepository>().InstancePerRequest();
+            builder.RegisterType<LocationRepository>().As<ILocationRepository>().InstancePerRequest();
         }
     }
 }
