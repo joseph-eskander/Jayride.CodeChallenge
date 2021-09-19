@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICandidateRepository.cs" />
+    <Compile Include="Repositories\IListingsRepository.cs" />
     <Compile Include="Repositories\ILocationRepository.cs" />
     <Compile Include="Services\ICandidateService.cs" />
+    <Compile Include="Services\IListingsService.cs" />
     <Compile Include="Services\ILocationService.cs" />
   </ItemGroup>
   <ItemGroup>

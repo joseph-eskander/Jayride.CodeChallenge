@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Listings\Models\Responses\Listings.cs" />
+    <Compile Include="Listings\Models\Responses\SearchListingsResponse.cs" />
+    <Compile Include="Listings\Models\Responses\VehicleType.cs" />
+    <Compile Include="Listings\QuoteRequestSa.cs" />
     <Compile Include="Location\IpStackSa.cs" />
     <Compile Include="Location\Models\Responses\LookUpResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

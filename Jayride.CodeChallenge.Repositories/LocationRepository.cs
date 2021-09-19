@@ -31,7 +31,5 @@ namespace Jayride.CodeChallenge.Repositories
                 Longitude = lookUpResponse.longitude,
             };
         }
-
-
     }
 }

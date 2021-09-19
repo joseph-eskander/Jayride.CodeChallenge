@@ -11,12 +11,12 @@ namespace Jayride.CodeChallenge.ServiceAgents.Location
 
         public IpStackSa(string accessKey)
         {
-            _accessKey = accessKey;   
+            _accessKey = accessKey;
         }
 
         public async Task<LookUpResponse> LookUpAsync(string ip)
         {
-            using (var client=new HttpClient())
+            using (var client = new HttpClient())
             {
                 var response = await client.GetAsync($"http://api.ipstack.com/{ip}?access_key={_accessKey}");
                 if (response.IsSuccessStatusCode)

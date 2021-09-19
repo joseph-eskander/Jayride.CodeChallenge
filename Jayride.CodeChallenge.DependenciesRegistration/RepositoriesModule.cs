@@ -10,6 +10,7 @@ namespace Jayride.CodeChallenge.DependenciesRegistration
         {
             builder.RegisterType<CandidateRepository>().As<ICandidateRepository>().InstancePerRequest();
             builder.RegisterType<LocationRepository>().As<ILocationRepository>().InstancePerRequest();
+            builder.RegisterType<ListingsRepository>().As<IListingsRepository>().InstancePerRequest();
         }
     }
 }
